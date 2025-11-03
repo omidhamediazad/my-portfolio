@@ -1,64 +1,9 @@
-/* ==========================
-   فونت از گوگل باید اول بیاید
-========================== */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-/* ==========================
-   Tailwind Directives
-========================== */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* ==========================
-   تنظیمات پایه
-========================== */
 html {
   font-family: 'Inter', sans-serif;
-}
-
-:root {
-  --color-primary: #3b82f6;
-  --color-secondary: #facc15;
-  --color-accent: #6366f1;
-  --color-bg: #f3f4f6;
-}
-
-body {
-  background-color: var(--color-bg);
-  color: #1f2937;
-  line-height: 1.6;
-}
-
-a {
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-
-a:hover {
-  color: var(--color-primary);
-  transform: scale(1.05);
-}
-
-button {
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  transform: scale(1.05);
-}
-
-section {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-              0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.transition-smooth {
-  transition: all 0.3s ease-in-out;
 }
